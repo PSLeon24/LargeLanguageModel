@@ -12,12 +12,12 @@ NLP, BERT, transformer, etc
 4. POS-Tagging
    - 토큰화한 단어에 대해 품사를 파악해 부착하는 것
 
-# Cleaning
+## Cleaning
 - noise & stopword removal(nltk의 stopwrds)
   - 길이가 짧은 단어들은 정규표현식을 써서 쉽게 제거 가능(영어에서 길이가 3 미만인 단어들은 삭제하는 것이 일반적)
   - 리스트를 활용하여 불용어 사전을 따로 만들어서 쉽게 제거할 수 있음
 
-# Tokenization using NLTK
+## Tokenization using NLTK
 - Sentence Tokenization(nltk의 sent_tokenize)
   - 여러 문장으로 이루어진 텍스트를 각 문장으로 나누는 것(주로 . ! ? 등을 기준으로 분리)
 - Word Tokenization(nltk의 word_tokenize)
@@ -26,7 +26,7 @@ NLP, BERT, transformer, etc
 - Tokenizer using regular expression(nltk의 RegexpTokenizer)
   - 대상 문자열로부터 원하는 패턴의 문자열을 검색하여 세밀하게 토큰화할 수 있음
 
-# Normalization
+## Normalization
 - Stemming: 어형이 변형된 단어로부터 접사 등을 제거하고 그 단어의 어간을 분리해 내는 작업(포터 스테머, 랭카스터 스테머, etc)
   - 어형: 단어의 형태
   - 어간(stem): 어형변화에서 변화하지 않는 부분, 용언의 바뀌지 않는 부분
@@ -42,7 +42,7 @@ NLP, BERT, transformer, etc
   - 사전에 나오는 단어인지 아닌지의 차이로 구분 가능
   - 어간을 형태적으로 분리해내기만 하는 것은 stemming, 단어의 기본형을 찾는 것은 lemmatization
 
-# POS-tagging(Part-of-Speech Tagging)
+## POS-tagging(Part-of-Speech Tagging)
 - nltk의 pos_tag()
 - 우리말의 주요 품사
   |품사|설명|
