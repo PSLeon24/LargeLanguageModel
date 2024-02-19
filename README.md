@@ -1,7 +1,7 @@
 # TextMining
 NLP, BERT, transformer, etc
 
-# Text Preprocessing
+# Text Preprocessing Step
 1. Cleaning
    - noise removal, stopword removal
 2. Tokenization
