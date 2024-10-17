@@ -76,6 +76,11 @@ NLP, BERT, transformer, etc
 - 펜 트리뱅크 태그 집합(Penn Treebank Tagset)
 ![image](https://github.com/PSLeon24/TextMining/assets/59058869/1427c0df-f62d-484a-948d-6cb5a99c09df)
 
+## Practice
+- Hugging Face: A model hub community providing tools and resources for NLP and ML.
+  - A community-driven model hub
+  - "Transformer" library
+
 # 용어 정리
 - 텍스트 마이닝(text mining): 자연어 처리 기법을 이요해 텍스트를 정형화된 데이터로 변환하고, 머신러닝 기법을 적용해 우리가 관심이 있는 어떤 사건을 예측하고자 하는 방법론
   - 이때, 정형화된 데이터는 '일정한 길이의 벡터'
