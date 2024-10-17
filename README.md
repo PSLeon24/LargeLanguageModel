@@ -80,6 +80,7 @@ NLP, BERT, transformer, etc
 - Hugging Face: A model hub community providing tools and resources for NLP and ML.
   - A community-driven model hub
   - "Transformer" library
+- A tour of Transformer Applications : Text Classification, Named-Entity Recognition, Text Generation, Summarization, Question Answering
 
 # 용어 정리
 - 텍스트 마이닝(text mining): 자연어 처리 기법을 이요해 텍스트를 정형화된 데이터로 변환하고, 머신러닝 기법을 적용해 우리가 관심이 있는 어떤 사건을 예측하고자 하는 방법론
